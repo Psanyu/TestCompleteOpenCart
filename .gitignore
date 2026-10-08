@@ -1,0 +1,34 @@
+# TestComplete execution logs
+Log/
+Logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Generated executables
+*.exe
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+*credentials*
+*secret*
+
+# Windows temporary files
+Thumbs.db
+desktop.ini
+
+# TestComplete local settings
+*.tcLS
+
+# Name Mapping screenshots - pending review
+**/NameMapping/Images/*.png
+
+# TestComplete visualizer screenshots - pending review
+**/Visualizer/**/*.png
