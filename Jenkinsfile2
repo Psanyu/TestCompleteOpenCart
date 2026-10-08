@@ -71,6 +71,35 @@ pipeline {
                 bat 'node generate-validation-report.js'
             }
         }
+
+        stage('Push Test Reports to GitHub') {
+            steps {
+                withCredentials([
+                    usernamePassword(
+                        credentialsId: 'github-testcomplete-push',
+                        usernameVariable: 'GIT_USER',
+                        passwordVariable: 'GIT_TOKEN'
+                    )
+                ]) {
+                    bat '''
+                        git config user.name "Jenkins"
+                        git config user.email "jenkins@localhost"
+
+                        git add -f reports/validation-results.xml
+                        git add -f reports/TestComplete-Validation-Report.xlsx
+
+                        git diff --cached --quiet
+
+                        if errorlevel 1 (
+                            git commit -m "Update TestComplete validation reports - Jenkins build %BUILD_NUMBER%"
+                            git push https://%GIT_USER%:%GIT_TOKEN%@github.com/Psanyu/TestCompleteOpenCart.git HEAD:main
+                        ) else (
+                            echo No report changes to commit.
+                        )
+                    '''
+                }
+            }
+        }
     }
 
     post {
