@@ -31,5 +31,30 @@ pipeline {
                 '''
             }
         }
+
+        stage('Validate JavaScript Syntax') {
+            steps {
+                powershell '''
+                    $files = Get-ChildItem "Frameworks" -Recurse -Filter "*.js" |
+                        Where-Object { $_.FullName -notmatch '[/\\\\]Visualizer[/\\\\]' }
+
+                    if (-not $files) {
+                        throw "No JavaScript files found."
+                    }
+
+                    foreach ($file in $files) {
+                        Write-Host "Checking $($file.Name)"
+
+                        node --check $file.FullName
+
+                        if ($LASTEXITCODE -ne 0) {
+                            throw "JavaScript syntax validation failed: $($file.Name)"
+                        }
+
+                        Write-Host "PASS: $($file.Name)"
+                    }
+                '''
+            }
+        }
     }
 }
