@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="TestComplete Framework Validation"
+        tests="10"
+        failures="0"
+        errors="0"
+        skipped="0">
+        <testcase classname="Framework Structure" name="Frameworks/ProjectSuiteTestFramework/ProjectSuiteTestFramework.pjs"/>
+<testcase classname="Framework Structure" name="Frameworks/ProjectSuiteTestFramework/TF1/TF1.mds"/>
+<testcase classname="Framework Structure" name="Frameworks/ProjectSuiteTestFramework/TF1/Script/T01_UserRegistration.js"/>
+<testcase classname="Framework Structure" name="Frameworks/ProjectSuiteTestFramework/TF1/Script/T02_Login.js"/>
+<testcase classname="Framework Structure" name="Frameworks/ProjectSuiteTestFramework/TF1/Script/T03_Logout.js"/>
+<testcase classname="Framework Structure" name="Frameworks/ProjectSuiteTestFramework/TF1/NameMapping/NameMapping.tcNM"/>
+<testcase classname="JavaScript Syntax" name="Frameworks\ProjectSuiteTestFramework\TF1\Script\T01_UserRegistration.js"/>
+<testcase classname="JavaScript Syntax" name="Frameworks\ProjectSuiteTestFramework\TF1\Script\T02_Login.js"/>
+<testcase classname="JavaScript Syntax" name="Frameworks\ProjectSuiteTestFramework\TF1\Script\T03_Logout.js"/>
+<testcase classname="JavaScript Syntax" name="Frameworks\ProjectSuiteTestFramework\TF1\Script\T04_PanelTravel2Script.js"/>
+    </testsuite>
+</testsuites>
