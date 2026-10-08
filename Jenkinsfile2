@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Validate Framework Structure') {
+            steps {
+                powershell '''
+                    $base = "Frameworks/ProjectSuiteTestFramework"
+
+                    $required = @(
+                        "$base/ProjectSuiteTestFramework.pjs",
+                        "$base/TF1/TF1.mds",
+                        "$base/TF1/Script/T01_UserRegistration.js",
+                        "$base/TF1/Script/T02_Login.js",
+                        "$base/TF1/Script/T03_Logout.js",
+                        "$base/TF1/NameMapping/NameMapping.tcNM"
+                    )
+
+                    foreach ($file in $required) {
+                        if (!(Test-Path $file)) {
+                            throw "Missing required file: $file"
+                        }
+                        Write-Host "PASS: $file"
+                    }
+                '''
+            }
+        }
+    }
+}
