@@ -1,0 +1,24 @@
+{
+  "name": "testcompleteopencart",
+  "version": "1.0.0",
+  "description": "A QA automation portfolio project demonstrating UI test automation using SmartBear TestComplete, JavaScript, keyword-driven testing, and reusable object identification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psanyu/TestCompleteOpenCart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Psanyu/TestCompleteOpenCart/issues"
+  },
+  "homepage": "https://github.com/Psanyu/TestCompleteOpenCart#readme",
+  "devDependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

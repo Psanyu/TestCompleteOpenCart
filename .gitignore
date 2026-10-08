@@ -32,3 +32,9 @@ desktop.ini
 
 # TestComplete visualizer screenshots - pending review
 **/Visualizer/**/*.png
+
+# Node.js dependencies
+node_modules/
+
+# Generated validation reports
+reports/

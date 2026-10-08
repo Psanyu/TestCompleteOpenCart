@@ -26,6 +26,7 @@ pipeline {
                         if (!(Test-Path $file)) {
                             throw "Missing required file: $file"
                         }
+
                         Write-Host "PASS: $file"
                     }
                 '''
@@ -36,7 +37,9 @@ pipeline {
             steps {
                 powershell '''
                     $files = Get-ChildItem "Frameworks" -Recurse -Filter "*.js" |
-                        Where-Object { $_.FullName -notmatch '[/\\\\]Visualizer[/\\\\]' }
+                        Where-Object {
+                            $_.FullName -notmatch '[/\\\\]Visualizer[/\\\\]'
+                        }
 
                     if (-not $files) {
                         throw "No JavaScript files found."
@@ -55,6 +58,30 @@ pipeline {
                     }
                 '''
             }
+        }
+
+        stage('Install Report Dependencies') {
+            steps {
+                bat 'npm ci'
+            }
+        }
+
+        stage('Generate Validation Reports') {
+            steps {
+                bat 'node generate-validation-report.js'
+            }
+        }
+    }
+
+    post {
+        always {
+            junit allowEmptyResults: true,
+                  testResults: 'reports/validation-results.xml'
+
+            archiveArtifacts(
+                artifacts: 'reports/validation-results.xml, reports/TestComplete-Validation-Report.xlsx',
+                allowEmptyArchive: true
+            )
         }
     }
 }
