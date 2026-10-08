@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{5FCEBD29-2A36-4F40-AAEA-15F82D2AC0A5}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{A2E4A643-A8E8-4102-A509-947E589DA79A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{0DE271A2-A125-49FA-AB17-D9BC1EFA9149}">
+								<Image FileName="88020252" Left="-8" Top="-8" Right="1928" Bottom="1160" />
+								<TypeInfo Item0="{8F7366A3-947E-4425-BBAE-F591B5C0D075}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWarmupPage" Key="{6176B06B-A1FB-46C5-9961-A8A18F222F34}">
+								<Image FileName="-2072745465" Left="0" Top="121" Right="1920" Bottom="1152" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost/opencart/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navTop" Key="{6C37B863-25D5-46E0-8CCA-7805F5B69DA4}">
+										<Image FileName="22963310" Left="0" Top="87" Right="1905" Bottom="133" />
+										<Selectors>
+											<Selector>
+												<Value Value="#top" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Currency&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode123456789" Key="{E4666AD5-5EA2-4173-A667-4A820CCD78C3}">
+										<Image FileName="22963310" Left="745" Top="87" Right="1601" Bottom="127" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;123456789&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul[contains(@class, &apos;list-inline&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyAccount" Key="{8F42A050-4E18-4E01-B385-0AAC4D7F1C38}">
+										<Image FileName="22963310" Left="1178" Top="87" Right="1283" Bottom="121" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//a[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li[2]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount" Key="{752D0C44-32E4-407B-BDB4-BC9C6AC15459}">
+										<Image FileName="22963310" Left="1194" Top="97" Right="1270" Bottom="116" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;My Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[2]//a/span[contains(@class, &apos;d-none&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li[2]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRegister" Key="{3AA657BE-5044-4773-8D23-276B965DA0DC}">
+										<Image FileName="1529456138" Left="1178" Top="123" Right="1338" Bottom="204" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//ul[contains(@class, &apos;dropdown-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogin" Key="{F387F56B-C4D2-4857-95B9-5B9A585CC602}">
+										<Image FileName="1529456138" Left="1179" Top="163" Right="1337" Bottom="194" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//ul/li[2]/a[contains(@class, &apos;dropdown-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li[2]//ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[2]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageIndex" Key="{80A47081-07B6-4566-8EA9-5978F04A1551}">
+								<Image FileName="-2072745465" Left="0" Top="121" Right="1920" Bottom="1152" />
+								<TypeInfo Item0="{F79669DC-7AAC-4A7D-8FF8-5391E4E5B5D4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost/opencart/index.php*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFormLogin" Key="{8B9A0FC4-CDBF-4480-9A74-F76B5D0FA8D6}">
+										<Image FileName="286096021" Left="817" Top="360" Right="1254" Bottom="681" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form-login" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Returning Customer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form[contains(@action, &apos;index.php&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEMailAddress" Key="{0FE850D3-E242-4F1B-BC9D-B967D98931A7}">
+										<Image FileName="286096021" Left="817" Top="475" Right="1254" Bottom="512" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;E-Mail Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#input-email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{7AF8A151-48B9-4E11-A86D-5F4EF2596249}">
+										<Image FileName="-535894130" Left="817" Top="564" Right="1254" Bottom="601" />
+										<TypeInfo Item0="{D35F0AF1-A561-4FAA-B0F1-8E94E5E91E07}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#input-password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{726CADC1-06E7-46B2-947E-9370F85AEC4D}">
+										<Image FileName="-1506112328" Left="1196" Top="644" Right="1254" Bottom="681" />
+										<TypeInfo Item0="{03918CDF-45B4-4E45-BA28-B1FF0AB27E01}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form-login&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account-login&apos;]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccount" Key="{18882900-4A26-4420-AC86-B3EE20AC4563}">
+										<Image FileName="-144195698" Left="305" Top="282" Right="1601" Bottom="323" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;breadcrumb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account-account&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{F9865A88-21B8-412B-8D76-EEFE34B38277}">
+										<Image FileName="-144195698" Left="306" Top="291" Right="363" Bottom="314" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;account-account&apos;]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{6071BCC5-44F9-45A7-990E-2A7B699EF55D}">
+										<Image FileName="83950258" Left="326" Top="295" Right="343" Bottom="310" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[contains(@class, &apos;fas&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account-account&apos;]//i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account-account&apos;]/ul/li/a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navTop" Key="{93A49A55-573D-4A25-B312-88972AA6CFB8}">
+										<Image FileName="-476711049" Left="0" Top="87" Right="1905" Bottom="133" />
+										<Selectors>
+											<Selector>
+												<Value Value="#top" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Currency&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode123456789" Key="{6E69EBA5-02F6-4A22-B0B4-9EC1ED852285}">
+										<Image FileName="-476711049" Left="745" Top="87" Right="1601" Bottom="127" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;123456789&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul[contains(@class, &apos;list-inline&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyAccount" Key="{971227AD-C83C-4B19-B37D-BEB946EAB501}">
+										<Image FileName="-476711049" Left="1178" Top="87" Right="1283" Bottom="121" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//a[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li[2]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount" Key="{872A4A12-4CB5-4A24-942E-DDA59A6F9651}">
+										<Image FileName="-476711049" Left="1194" Top="97" Right="1270" Bottom="116" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;My Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[2]//a/span[contains(@class, &apos;d-none&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li[2]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount2" Key="{F7AF751B-726D-41FF-B107-BA2D8DC54AFF}">
+										<Image FileName="-967317004" Left="1178" Top="123" Right="1338" Bottom="298" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//ul[contains(@class, &apos;dropdown-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//div[2]/ul/li//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogout" Key="{C9C6A61C-AB57-4B9F-B06E-C466F1A5AAFD}">
+										<Image FileName="-967317004" Left="1179" Top="258" Right="1337" Bottom="289" />
+										<TypeInfo Item0="{46DAF941-113E-410B-A2EF-17325B056E90}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Logout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[contains(@class, &apos;dropdown-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;top&apos;]//li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{A85D8923-93D2-4B29-BF0E-0F052689886D}">
+								<Image FileName="-1200727856" Left="0" Top="0" Right="208" Bottom="166" />
+								<TypeInfo Item0="{5A19C966-14CE-4E2D-B08C-E7602C739119}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{A2E4A643-A8E8-4102-A509-947E589DA79A}">
+			<Child Name="BrowserWindow" Owner="{0DE271A2-A125-49FA-AB17-D9BC1EFA9149}" />
+			<Child Name="pageWarmupPage" Owner="{6176B06B-A1FB-46C5-9961-A8A18F222F34}">
+				<Child Name="navTop" Owner="{6C37B863-25D5-46E0-8CCA-7805F5B69DA4}">
+					<Child Name="textnode123456789" Owner="{E4666AD5-5EA2-4173-A667-4A820CCD78C3}">
+						<Child Name="linkMyAccount" Owner="{8F42A050-4E18-4E01-B385-0AAC4D7F1C38}">
+							<Child Name="textnodeMyAccount" Owner="{752D0C44-32E4-407B-BDB4-BC9C6AC15459}" />
+						</Child>
+						<Child Name="textnodeRegister" Owner="{3AA657BE-5044-4773-8D23-276B965DA0DC}">
+							<Child Name="linkLogin" Owner="{F387F56B-C4D2-4857-95B9-5B9A585CC602}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageIndex" Owner="{80A47081-07B6-4566-8EA9-5978F04A1551}">
+				<Child Name="formFormLogin" Owner="{8B9A0FC4-CDBF-4480-9A74-F76B5D0FA8D6}">
+					<Child Name="emailinputEMailAddress" Owner="{0FE850D3-E242-4F1B-BC9D-B967D98931A7}" />
+					<Child Name="passwordboxPassword" Owner="{7AF8A151-48B9-4E11-A86D-5F4EF2596249}" />
+					<Child Name="buttonLogin" Owner="{726CADC1-06E7-46B2-947E-9370F85AEC4D}" />
+				</Child>
+				<Child Name="textnodeAccount" Owner="{18882900-4A26-4420-AC86-B3EE20AC4563}">
+					<Child Name="textnode" Owner="{F9865A88-21B8-412B-8D76-EEFE34B38277}">
+						<Child Name="textnode2" Owner="{6071BCC5-44F9-45A7-990E-2A7B699EF55D}" />
+					</Child>
+				</Child>
+				<Child Name="navTop" Owner="{93A49A55-573D-4A25-B312-88972AA6CFB8}">
+					<Child Name="textnode123456789" Owner="{6E69EBA5-02F6-4A22-B0B4-9EC1ED852285}">
+						<Child Name="linkMyAccount" Owner="{971227AD-C83C-4B19-B37D-BEB946EAB501}">
+							<Child Name="textnodeMyAccount" Owner="{872A4A12-4CB5-4A24-942E-DDA59A6F9651}" />
+						</Child>
+						<Child Name="textnodeMyAccount2" Owner="{F7AF751B-726D-41FF-B107-BA2D8DC54AFF}">
+							<Child Name="linkLogout" Owner="{C9C6A61C-AB57-4B9F-B06E-C466F1A5AAFD}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{A85D8923-93D2-4B29-BF0E-0F052689886D}" />
+		</Child>
+	</LogicalNodes>
+</Root>

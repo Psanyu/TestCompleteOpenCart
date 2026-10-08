@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root identifier="Stores.Objects" version="2" mode="6" name="" className="" groupName="" objectType="0" selected="True">
+	<properties />
+	<children>
+		<child name="Window(&quot;TkChild&quot;, &quot;&quot;, 6)" className="TkChild" groupName="" objectType="1" selected="True">
+			<properties>
+				<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="WndCaption" type="2" kind="3" selected="True" basic="True" value="" />
+			</properties>
+			<children />
+		</child>
+	</children>
+</Root>

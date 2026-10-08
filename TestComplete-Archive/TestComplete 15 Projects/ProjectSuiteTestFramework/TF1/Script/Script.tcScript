@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="T04_PanelTravel2Script" key="{1C1C25A0-1B32-4302-BBC5-170F11AACA1F}" path="T04_PanelTravel2Script.js" />
+		<child name="T01_UserRegistration" key="{2D525631-ECA5-4DCC-9D5E-D230953B0B7F}" path="T01_UserRegistration.js" />
+		<child name="T02_Login" key="{02C322A4-D968-4048-B3FA-A41D6FBED78F}" path="T02_Login.js" />
+		<child name="T03_Logout" key="{E4366566-2663-4B7A-AC06-C3D1EA7D3DB7}" path="T03_Logout.js" />
+	</children>
+</Root>

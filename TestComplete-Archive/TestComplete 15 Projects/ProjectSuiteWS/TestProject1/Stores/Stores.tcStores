@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" version="15.0">
+	<children>
+		<child name="XML" key="{1978F1F3-996B-4748-A113-78D3E215643F}" type="XML" typeId="{CCCFA5F5-AB3B-408F-95C9-61DE90C5FAD5}" pluginName="Stores" path="XML\XML.tcXmls" />
+	</children>
+</Root>

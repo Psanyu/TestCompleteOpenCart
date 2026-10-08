@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E7C4777E-F885-4753-8671-58116446AB04}">
+	<children>
+		<child name="TF1" key="{D699D268-BC25-4656-A905-CE0328CEEDDB}" path="TF1\TF1.mds" />
+	</children>
+	<testItems key="{804FF56F-DFC6-4E63-A228-79E3FC1693E2}">
+		<children>
+			<testItem key="{D699D268-BC25-4656-A905-CE0328CEEDDB}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{24E78516-9AB1-4503-BC61-200B0E20DD22}" />
+	<analysis key="{AC36386C-1C0E-47DB-842B-61190462CEFD}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

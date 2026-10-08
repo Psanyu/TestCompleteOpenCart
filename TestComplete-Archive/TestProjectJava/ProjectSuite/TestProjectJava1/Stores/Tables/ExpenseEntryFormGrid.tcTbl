@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="ExpenseEntryFormGrid">
+		<Source Object="Aliases.pythonApp.MiniExpenseForm.MiniExcel.TotalsSection.SaveButton">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="TopMost" HasHeader="True">
+				<Rectangle Left="4" Top="0" Right="905" Bottom="82" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>Employee</Column>
+			<Column>Department</Column>
+			<Column>Expense</Column>
+			<Column>Amount</Column>
+			<Column>Status</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">John Smith</Cell>
+				<Cell Type="String">IT</Cell>
+				<Cell Type="String">Laptop</Cell>
+				<Cell Type="String">1200.00</Cell>
+				<Cell Type="String">Approved</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Mary Jones</Cell>
+				<Cell Type="String">HR</Cell>
+				<Cell Type="String">Training</Cell>
+				<Cell Type="String">500.00</Cell>
+				<Cell Type="String">Pending</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">David Lee</Cell>
+				<Cell Type="String">Finance</Cell>
+				<Cell Type="String">Software</Cell>
+				<Cell Type="String">850.00</Cell>
+				<Cell Type="String">Approved</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

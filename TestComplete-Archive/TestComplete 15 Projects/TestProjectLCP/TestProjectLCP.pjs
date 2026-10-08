@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{4945435A-6580-41C6-9CEB-906C155B9E80}">
+	<children>
+		<child name="TestProjectLCP" key="{65B049BC-D3CA-4BC1-88EC-E43833AC11B8}" path="TestProjectLCP\TestProjectLCP.mds" />
+	</children>
+	<testItems key="{8A5FD5FA-49F2-45F1-BEA4-84011B1BE538}">
+		<children>
+			<testItem key="{65B049BC-D3CA-4BC1-88EC-E43833AC11B8}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{FF27B8B6-0B4E-49BC-82EB-09AD32AA1340}" />
+	<analysis key="{8649B756-BD52-4290-ADCA-6FEAA92FAF74}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

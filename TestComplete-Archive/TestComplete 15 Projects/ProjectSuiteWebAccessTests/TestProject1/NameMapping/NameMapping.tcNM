@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{33AA7895-EC9B-493D-8FB5-70648CC95981}">
+				<TypeInfo Item0="{3AD5369A-F90A-46F8-BB0D-1978417A9C39}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{2655C47B-BC2E-4A11-B156-D4ADC287C024}">
+						<TypeInfo Item0="{E54897F1-FD3A-4D69-AD4F-C99B9B313630}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageYourStore" Key="{3B1D7101-A1E0-4FF9-AE13-1EBAA73AA4CA}">
+								<Image FileName="-1465457671" Left="8" Top="95" Right="1928" Bottom="1160" />
+								<TypeInfo Item0="{FF19129D-A857-412B-8978-2C74D6B5F6D0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost/opencart/" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{2655C47B-BC2E-4A11-B156-D4ADC287C024}">
+			<Child Name="pageYourStore" Owner="{3B1D7101-A1E0-4FF9-AE13-1EBAA73AA4CA}" />
+		</Child>
+	</LogicalNodes>
+</Root>

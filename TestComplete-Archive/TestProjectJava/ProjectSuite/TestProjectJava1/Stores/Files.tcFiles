@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="15.0">
+	<children>
+		<child name="Hello1_txt" key="{69E160DB-021C-4767-8EF9-098D4D4E2D6F}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Hello1_txt" ID="{69E160DB-021C-4767-8EF9-098D4D4E2D6F}" FileName="Files\Hello1.txt" Update="False" />
+		</child>
+		<child name="Hello21" key="{8DF09437-A754-4483-8764-E02DBC796862}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Hello21" ID="{8DF09437-A754-4483-8764-E02DBC796862}" FileName="Files\Hello2.txt" Update="False" />
+		</child>
+		<child name="Hello22" key="{E83D28A5-F4C2-4A51-A622-73DBD9259435}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Hello22" ID="{E83D28A5-F4C2-4A51-A622-73DBD9259435}" FileName="Files\Hello21.txt" Update="False" />
+		</child>
+	</children>
+</Root>

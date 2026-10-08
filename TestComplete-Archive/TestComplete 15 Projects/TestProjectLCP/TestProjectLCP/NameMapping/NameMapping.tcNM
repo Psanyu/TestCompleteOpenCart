@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DD112DD2-D6C9-4BB0-B3F9-E51953A3810C}">
+				<TypeInfo Item0="{269CEB8A-5665-4991-81BC-AAF555F1AE59}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="python" Key="{3A8E8E5F-432F-4731-ADC9-FD51B1510B04}">
+						<TypeInfo Item0="{E3A36965-70A5-4437-BC5A-5931CD696D0B}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="python" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTkTopLevel" Key="{4487941E-2B8A-48B4-8A9E-368E031F5937}">
+								<Image FileName="-1058832002" Left="0" Top="0" Right="1066" Bottom="659" />
+								<TypeInfo Item0="{A9B1D75D-3A9C-457D-A176-B13F658FB86F}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TkTopLevel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TkChild" Key="{EAF4BAD4-F62E-4767-8BF5-FDA4E251BE85}">
+										<Image FileName="-1058832002" Left="8" Top="31" Right="1058" Bottom="651" />
+										<TypeInfo Item0="{0EC3C484-D3E7-428E-85F0-7B8A2023F16C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TkChild" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TkChild" Key="{2254EC64-589B-4459-A901-7961FF360478}">
+												<Image FileName="-1058832002" Left="20" Top="101" Right="1046" Bottom="194" />
+												<TypeInfo Item0="{0EC3C484-D3E7-428E-85F0-7B8A2023F16C}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="5" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="python" Owner="{3A8E8E5F-432F-4731-ADC9-FD51B1510B04}">
+			<Child Name="wndTkTopLevel" Owner="{4487941E-2B8A-48B4-8A9E-368E031F5937}">
+				<Child Name="TkChild" Owner="{EAF4BAD4-F62E-4767-8BF5-FDA4E251BE85}">
+					<Child Name="TkChild" Owner="{2254EC64-589B-4459-A901-7961FF360478}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

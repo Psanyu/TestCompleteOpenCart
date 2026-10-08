@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{E92E16EE-4FED-4B2B-804B-A9C03F0A2A44}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="mspaint" Key="{B122E4F7-6B91-4EDF-B0AB-50A405D71006}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="mspaint" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMSPaintApp" Key="{5E3C28AF-F32F-4AF1-BB31-1F32332B3AFB}">
+								<Image FileName="1325093498" Left="0" Top="0" Right="1536" Bottom="960" />
+								<TypeInfo Item0="{9A48D061-5A25-4760-9546-5D52ACEE7B51}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MSPaintApp" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndMicrosoftUIContentPopupWindowSiteBridge" Key="{67FC33CF-EAFB-447E-AEFD-F29DDD4C64C4}">
+								<TypeInfo Item0="{56F03EC1-13FA-4863-BF6D-5D378FA747A3}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Microsoft.UI.Content.PopupWindowSiteBridge" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Pop-upHost" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{BF1885E5-42AD-48C6-9BD1-5F2C2637CA39}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{08DD4DCD-7F27-47F8-BB38-4157762F23F3}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{4C156B1D-110E-4EC1-8F8A-8B66910EAC67}">
+										<TypeInfo Item0="{79ACD948-DFD3-445A-8C23-E2A3EFE4DC16}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{D1E83316-0CDB-4886-BB85-7C0002E10FD3}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{ED40B828-F856-46F1-87F4-3E0DC4A285F7}">
+								<Image FileName="1817251318" Left="-8" Top="-8" Right="1928" Bottom="1160" />
+								<TypeInfo Item0="{9A48D061-5A25-4760-9546-5D52ACEE7B51}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="mspaint" Owner="{B122E4F7-6B91-4EDF-B0AB-50A405D71006}">
+			<Child Name="wndMSPaintApp" Owner="{5E3C28AF-F32F-4AF1-BB31-1F32332B3AFB}" />
+			<Child Name="wndMicrosoftUIContentPopupWindowSiteBridge" Owner="{67FC33CF-EAFB-447E-AEFD-F29DDD4C64C4}" />
+		</Child>
+		<Child Name="explorer" Owner="{BF1885E5-42AD-48C6-9BD1-5F2C2637CA39}">
+			<Child Name="wndShell_TrayWnd" Owner="{08DD4DCD-7F27-47F8-BB38-4157762F23F3}">
+				<Child Name="DesktopWindowXamlSource" Owner="{4C156B1D-110E-4EC1-8F8A-8B66910EAC67}" />
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{D1E83316-0CDB-4886-BB85-7C0002E10FD3}">
+			<Child Name="BrowserWindow" Owner="{ED40B828-F856-46F1-87F4-3E0DC4A285F7}" />
+		</Child>
+	</LogicalNodes>
+</Root>

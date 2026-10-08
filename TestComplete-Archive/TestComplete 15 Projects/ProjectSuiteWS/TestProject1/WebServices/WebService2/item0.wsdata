@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<definitions
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:tns="http://example.com/sample"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://example.com/sample">
+
+
+    <!-- ================================================= -->
+    <!-- ADD -->
+    <!-- ================================================= -->
+
+    <message name="AddRequest">
+        <part name="x" type="xsd:int"/>
+        <part name="y" type="xsd:int"/>
+    </message>
+
+    <message name="AddResponse">
+        <part name="result" type="xsd:int"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- SUB -->
+    <!-- ================================================= -->
+
+    <message name="SubRequest">
+        <part name="x" type="xsd:int"/>
+        <part name="y" type="xsd:int"/>
+    </message>
+
+    <message name="SubResponse">
+        <part name="result" type="xsd:int"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- MULT -->
+    <!-- ================================================= -->
+
+    <message name="MultRequest">
+        <part name="x" type="xsd:int"/>
+        <part name="y" type="xsd:int"/>
+    </message>
+
+    <message name="MultResponse">
+        <part name="result" type="xsd:int"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- DIV -->
+    <!-- ================================================= -->
+
+    <message name="DivRequest">
+        <part name="x" type="xsd:int"/>
+        <part name="y" type="xsd:int"/>
+    </message>
+
+    <message name="DivResponse">
+        <part name="result" type="xsd:double"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- HELLO WORLD -->
+    <!-- ================================================= -->
+
+    <message name="HelloWorldRequest">
+    </message>
+
+    <message name="HelloWorldResponse">
+        <part name="result" type="xsd:string"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- GET PERSON -->
+    <!-- ================================================= -->
+
+    <message name="GetPersonRequest">
+        <part name="id" type="xsd:string"/>
+    </message>
+
+    <message name="GetPersonResponse">
+        <part name="result" type="xsd:string"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- GET RSS -->
+    <!-- ================================================= -->
+
+    <message name="GetRSSRequest">
+    </message>
+
+    <message name="GetRSSResponse">
+        <part name="result" type="xsd:string"/>
+    </message>
+
+
+    <!-- ================================================= -->
+    <!-- PORT TYPE -->
+    <!-- ================================================= -->
+
+    <portType name="SampleServicePortType">
+
+
+        <operation name="Add">
+            <input message="tns:AddRequest"/>
+            <output message="tns:AddResponse"/>
+        </operation>
+
+
+        <operation name="Div">
+            <input message="tns:DivRequest"/>
+            <output message="tns:DivResponse"/>
+        </operation>
+
+
+        <operation name="GetPerson">
+            <input message="tns:GetPersonRequest"/>
+            <output message="tns:GetPersonResponse"/>
+        </operation>
+
+
+        <operation name="GetRSS">
+            <input message="tns:GetRSSRequest"/>
+            <output message="tns:GetRSSResponse"/>
+        </operation>
+
+
+        <operation name="HelloWorld">
+            <input message="tns:HelloWorldRequest"/>
+            <output message="tns:HelloWorldResponse"/>
+        </operation>
+
+
+        <operation name="Mult">
+            <input message="tns:MultRequest"/>
+            <output message="tns:MultResponse"/>
+        </operation>
+
+
+        <operation name="Sub">
+            <input message="tns:SubRequest"/>
+            <output message="tns:SubResponse"/>
+        </operation>
+
+
+    </portType>
+
+
+    <!-- ================================================= -->
+    <!-- SOAP BINDING -->
+    <!-- ================================================= -->
+
+    <binding
+        name="SampleServiceBinding"
+        type="tns:SampleServicePortType">
+
+        <soap:binding
+            style="rpc"
+            transport="http://schemas.xmlsoap.org/soap/http"/>
+
+
+        <operation name="Add">
+
+            <soap:operation soapAction="Add"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+        <operation name="Div">
+
+            <soap:operation soapAction="Div"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+        <operation name="GetPerson">
+
+            <soap:operation soapAction="GetPerson"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+        <operation name="GetRSS">
+
+            <soap:operation soapAction="GetRSS"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+        <operation name="HelloWorld">
+
+            <soap:operation soapAction="HelloWorld"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+        <operation name="Mult">
+
+            <soap:operation soapAction="Mult"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+        <operation name="Sub">
+
+            <soap:operation soapAction="Sub"/>
+
+            <input>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </input>
+
+            <output>
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/sample"/>
+            </output>
+
+        </operation>
+
+
+    </binding>
+
+
+    <!-- ================================================= -->
+    <!-- SERVICE -->
+    <!-- ================================================= -->
+
+    <service name="SampleService">
+
+        <port
+            name="SampleServicePort"
+            binding="tns:SampleServiceBinding">
+
+            <soap:address
+                location="http://localhost:8091/"/>
+
+        </port>
+
+    </service>
+
+
+</definitions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A4079B1C-BC27-41F5-B5E8-2E4C558CA421}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="46280.1896064815" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.SearchName.TkChild" objectLeft="280" objectTop="215" objectRight="315" objectBottom="224" clickPointX="300" clickPointY="215" imageFileName="tcvi2884055782000032.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="46280.1896296296" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.TkChild.TkChild" objectLeft="53" objectTop="278" objectRight="83" objectBottom="288" clickPointX="61" clickPointY="284" imageFileName="tcvi2884081712000035.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="46280.1896527778" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.TkChild2.TkChild" objectLeft="892" objectTop="595" objectRight="916" objectBottom="604" clickPointX="903" clickPointY="599" imageFileName="tcvi2884103282000038.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="46280.1896759259" objectName="Aliases.pythonApp.dlgSave.btnOK" objectLeft="133" objectTop="119" objectRight="208" objectBottom="142" clickPointX="153" clickPointY="124" imageFileName="tcvi2884119532000039.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

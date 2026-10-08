@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}" version="15.0">
+	<Page Moniker="Aliases.browser.pageYourStore" />
+	<Tasks>
+		<Task Name="Check alt attribute" Value="True" />
+		<Task Name="Check mailto:" Value="True" />
+		<Task Name="Check image sizes " Value="True" />
+		<Task Name="Check title tag" Value="True" />
+		<Task Name="Check tab indexes" Value="True" />
+		<Task Name="Check link accessibility" Value="True" />
+		<Task Name="Check ActiveX objects" Value="True" />
+		<Task Name="Check Applet objects" Value="True" />
+		<Task Name="Check multimedia links" Value="True" />
+		<Task Name="Check server-side images" Value="True" />
+	</Tasks>
+</Root>

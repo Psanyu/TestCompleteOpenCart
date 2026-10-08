@@ -1,0 +1,33 @@
+Aliases.mspaint.wndMSPaintApp
+let page = browser.OpenCartHomePage;
+ let panel = page.sectionLoaded2.panelThenIGotTheAliasForThe;
+  panel.Click();
+  browser.ToUrl("http://localhost/opencart/");
+  page.OpencartNavigation.panel.Click();
+  panel.Click();
+  panel.Click();
+  panel.Click();
+  panel.Click();
+  panel.Click();
+  page.sectionSidebar.textnodeSection11Artificial.buttonAccordionPanelTitle135.ClickButton();
+
+function Test1()
+{
+  Browsers.Item(btChrome).Navigate("http://localhost/opencart/");
+
+  let page = Sys.Browser("chrome").Page("*");
+  page.Wait();
+
+  // Access the page DOM
+  let doc = page.contentDocument;
+
+  // Get all <a> elements
+  let links = doc.links;
+
+  Log.Message("Total Links = " + links.length);
+
+  for (let i = 0; i < links.length; i++)
+  {
+    Log.Message(links.item(i).href);
+  }
+}

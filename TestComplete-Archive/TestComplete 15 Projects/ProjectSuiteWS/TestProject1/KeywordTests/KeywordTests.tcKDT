@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{4DF8F867-1F2E-4B69-90E2-EEB4961BFDD1}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{9CB40214-A456-48EF-A64F-1B6958C56031}" path="Test2.tcKDTest" />
+		<child name="Test3GetPerson" key="{F162C488-CD60-4AE6-8733-F3035F22DDC9}" path="Test3GetPerson.tcKDTest" />
+		<child name="UserFormTests" key="{60CF3986-99AB-4D04-9A69-86AB4FD676E8}" path="UserFormTests.tcKDTest" />
+	</children>
+</Root>

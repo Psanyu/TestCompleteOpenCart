@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CEC2489F-ECDE-4F42-9ED4-4EB3223B444D}" version="15.0">
+	<nodeData description="This checkpoint should be used in the &quot;HelloWorld&quot; method of the &quot;WebService2&quot; web service." sourceUrl="" documentType="0" hasDocument="True" ignoreNodeOrder="False" ignoreAttributes="True" ignoreNamespaceDeclarations="True" ignorePrefixes="True" subTreeMode="False" extendedLogging="False" />
+</Root>

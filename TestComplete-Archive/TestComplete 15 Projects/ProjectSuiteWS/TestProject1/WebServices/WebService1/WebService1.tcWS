@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{FDE830DE-DB45-4B3F-9158-5C1FB0B40C28}" version="15.0" dataId="{2C787F7C-5AE4-4F0B-BDC1-E430CBFCE526}">
+	<data>
+		<file fileName="item0.wsdata" url="http://localhost:8090/?wsdl" />
+		<typeInfo name="CustomerService" documentation="" active="True" port="CustomerServicePort" biding="CustomerServiceBinding" soapVersion="0" url="http://localhost:8090/" wsdl="http://localhost:8090/?wsdl" />
+	</data>
+</Root>

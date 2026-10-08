@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{E11356B7-C68A-4933-882C-33E62B223114}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="46280.389224537" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.ExpenseEntrySection.EmpEdit" objectLeft="39" objectTop="154" objectRight="177" objectBottom="175" clickPointX="98" clickPointY="165" imageFileName="tcvi305652906354160.png" storageFileName="" needUpdate="True" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="23" kind="0" dateTime="46280.4277943982" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.ExpenseEntrySection.ExpenseEdit" objectLeft="316" objectTop="154" objectRight="454" objectBottom="175" clickPointX="-1" clickPointY="-1" imageFileName="tcvi3056658283541613.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="25" kind="0" dateTime="46280.4277985532" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.ExpenseEntrySection.AmountEdit" objectLeft="464" objectTop="154" objectRight="560" objectBottom="175" clickPointX="512" clickPointY="164" imageFileName="tcvi3056731873541617.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="35" kind="0" dateTime="46280.3895486111" objectName="Aliases.pythonApp.MiniExpenseForm.MiniExcel.TkChild.TkChild" objectLeft="966" objectTop="587" objectRight="1042" objectBottom="612" clickPointX="982" clickPointY="595" imageFileName="tcvi3056810003541630.png" storageFileName="" needUpdate="True" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="36" kind="0" dateTime="46280.3895717593" objectName="Aliases.pythonApp.dlgSave.btnOK" objectLeft="133" objectTop="119" objectRight="208" objectBottom="142" clickPointX="181" clickPointY="131" imageFileName="tcvi3056830003541633.png" storageFileName="" needUpdate="True" rectColor="255" />
+	</data>
+</Root>

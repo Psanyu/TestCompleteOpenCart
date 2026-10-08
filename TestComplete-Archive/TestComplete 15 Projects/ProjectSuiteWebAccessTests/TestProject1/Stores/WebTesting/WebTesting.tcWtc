@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" version="15.0">
+	<children>
+		<child name="WebComparison1" key="{35124F38-DF3E-457D-B167-C2EBA42B1EAC}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="WebComparison1.tcWcm" />
+		<child name="WebComparison2" key="{55264A1D-67DD-4BA7-AD6D-64EDAF55A699}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="WebComparison2.tcWcm" />
+		<child name="WebComparison3" key="{2541B0CB-9106-4B8B-B1C6-CBB9405A4C09}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="WebComparison3.tcWcm" />
+		<child name="OpenCartAccessChk" key="{09642127-A173-4979-AB57-7CE07743FB7C}" type="Web Accessibility" typeId="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}" pluginName="Web Checkpoints" path="OpenCartAccessChk.tcWat" />
+	</children>
+</Root>

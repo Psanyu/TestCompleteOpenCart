@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{EF69E720-6D84-459D-A8E2-0336F5E64155}">
+	<children>
+		<child name="LearningWS" key="{F8B59C5D-50B7-4601-B198-F041F9B7D960}" path="TestProject1\LearningWS.mds" />
+	</children>
+	<testItems key="{FF69EC0E-F0B5-425F-AD8E-A2B6E4E88C1A}">
+		<children>
+			<testItem key="{F8B59C5D-50B7-4601-B198-F041F9B7D960}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{748522A0-FAF0-4F27-A548-A388EF34FE55}" />
+	<analysis key="{BBF122A0-746F-493A-8EB6-D1FCB9678C41}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<definitions
+
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+
+    xmlns:tns="http://example.com/customer"
+
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+
+    targetNamespace="http://example.com/customer">
+
+
+    <!-- REQUEST -->
+
+    <message name="GetCustomerRequest">
+
+        <part
+            name="customerId"
+            type="xsd:string"/>
+
+    </message>
+
+
+    <!-- RESPONSE -->
+
+    <message name="GetCustomerResponse">
+
+        <part
+            name="result"
+            type="xsd:string"/>
+
+    </message>
+
+
+    <!-- PORT TYPE -->
+
+    <portType name="CustomerServicePortType">
+
+        <operation name="GetCustomer">
+
+            <input
+                message="tns:GetCustomerRequest"/>
+
+            <output
+                message="tns:GetCustomerResponse"/>
+
+        </operation>
+
+    </portType>
+
+
+    <!-- SOAP BINDING -->
+
+    <binding
+        name="CustomerServiceBinding"
+        type="tns:CustomerServicePortType">
+
+
+        <soap:binding
+            style="rpc"
+            transport="http://schemas.xmlsoap.org/soap/http"/>
+
+
+        <operation name="GetCustomer">
+
+
+            <soap:operation
+                soapAction="GetCustomer"/>
+
+
+            <input>
+
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/customer"/>
+
+            </input>
+
+
+            <output>
+
+                <soap:body
+                    use="literal"
+                    namespace="http://example.com/customer"/>
+
+            </output>
+
+
+        </operation>
+
+    </binding>
+
+
+    <!-- SERVICE -->
+
+    <service name="CustomerService">
+
+
+        <port
+            name="CustomerServicePort"
+            binding="tns:CustomerServiceBinding">
+
+
+            <soap:address
+                location="http://localhost:8090/"/>
+
+
+        </port>
+
+
+    </service>
+
+
+</definitions>

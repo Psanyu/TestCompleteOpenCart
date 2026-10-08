@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://example.com/sample">
+	<soap:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<tns:HelloWorldResponse>
+			<tns:result>Hello World from Python SOAP Service!</tns:result>
+		</tns:HelloWorldResponse>
+	</soap:Body>
+</soap:Envelope>

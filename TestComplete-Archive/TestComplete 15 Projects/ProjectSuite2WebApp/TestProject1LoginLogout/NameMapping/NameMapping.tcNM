@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{9A9A2DC9-BC7D-47E9-B520-D4C3AE1C03DB}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{AB980CF0-E140-4A36-9AAD-68D22EF44F4E}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{22B8AF3C-6117-4FA1-A971-9190E5F8A3F3}">
+								<Image FileName="-490395681" Left="0" Top="0" Right="1928" Bottom="1159" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{9222A800-FCFA-462E-826C-A42C0752736C}">
+										<Image FileName="434104430" Left="8" Top="87" Right="1920" Bottom="1151" />
+										<TypeInfo Item0="{F759D8C8-38B9-434C-8FC9-C34350FF99DC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Chrome_RenderWidgetHostHWND2" Key="{1444ADD8-A76E-44C4-AAFA-4A4BCF3D3DAB}">
+										<Image FileName="71406844" Left="8" Top="87" Right="1920" Bottom="1151" />
+										<TypeInfo Item0="{F759D8C8-38B9-434C-8FC9-C34350FF99DC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMailGoogleComMailU0TabRmOgbl" Key="{BB35E516-78BE-42F4-B726-E1220E46908C}">
+								<Image FileName="-1682537206" Left="8" Top="87" Right="1920" Bottom="1151" />
+								<TypeInfo Item0="{D36B73BB-B1AF-41BE-9A15-D16F8B6B9BA0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/mail/u/0/*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{5F685087-65EF-49F0-BB96-E395437C4E26}">
+								<Image FileName="-398753304" Left="0" Top="0" Right="182" Bottom="58" />
+								<TypeInfo Item0="{42BE82AC-F325-4C30-AFDD-A28AE6499A05}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAccountLogin" Key="{3EF62DF6-94E3-4D6E-B1AA-10BED89F6CDC}">
+								<TypeInfo Item0="{D36B73BB-B1AF-41BE-9A15-D16F8B6B9BA0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost/opencart/index.php*" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{8CD4E189-0B4F-4E53-B365-1F27DE3C9E76}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXamlExplorerHostIslandWindow" Key="{9EB366F1-4E49-4086-9B1F-90CC80CD91DB}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XamlExplorerHostIslandWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{378ADE3B-D3DA-4DDC-80EE-E9790606BF48}">
+										<TypeInfo Item0="{F759D8C8-38B9-434C-8FC9-C34350FF99DC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{D568BEC7-0644-407F-A17D-1B131BD152E8}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{0B1B39CB-67F9-4D46-9CC2-953E6AD7BE95}">
+										<TypeInfo Item0="{F759D8C8-38B9-434C-8FC9-C34350FF99DC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{AB980CF0-E140-4A36-9AAD-68D22EF44F4E}">
+			<Child Name="BrowserWindow" Owner="{22B8AF3C-6117-4FA1-A971-9190E5F8A3F3}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{9222A800-FCFA-462E-826C-A42C0752736C}" />
+				<Child Name="Chrome_RenderWidgetHostHWND2" Owner="{1444ADD8-A76E-44C4-AAFA-4A4BCF3D3DAB}" />
+			</Child>
+			<Child Name="pageMailGoogleComMailU0TabRmOgbl" Owner="{BB35E516-78BE-42F4-B726-E1220E46908C}" />
+			<Child Name="wndChrome_WidgetWin_1" Owner="{5F685087-65EF-49F0-BB96-E395437C4E26}" />
+			<Child Name="pageAccountLogin" Owner="{3EF62DF6-94E3-4D6E-B1AA-10BED89F6CDC}" />
+		</Child>
+		<Child Name="explorer" Owner="{8CD4E189-0B4F-4E53-B365-1F27DE3C9E76}">
+			<Child Name="wndXamlExplorerHostIslandWindow" Owner="{9EB366F1-4E49-4086-9B1F-90CC80CD91DB}">
+				<Child Name="DesktopWindowXamlSource" Owner="{378ADE3B-D3DA-4DDC-80EE-E9790606BF48}" />
+			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{D568BEC7-0644-407F-A17D-1B131BD152E8}">
+				<Child Name="DesktopWindowXamlSource" Owner="{0B1B39CB-67F9-4D46-9CC2-953E6AD7BE95}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

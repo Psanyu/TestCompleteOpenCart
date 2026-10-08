@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{7FF4A05D-08F1-497C-9A66-509C302D9CEC}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{BFB22AB8-CCC8-4F31-9C38-BD33B475D3E6}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{7791F6DC-ECF4-4A1F-B4B5-FFD6AF0AB06F}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{761D0EF2-2AFA-4D49-B39E-153AD4D67E04}">
+										<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ChatGPT_Classic" Key="{EBD3F31E-02A0-47A9-908C-F14CD06C4CC6}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ChatGPT Classic" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{C948E645-CE45-4BE7-866C-3D8FD982F401}">
+								<TypeInfo Item0="{03F6D472-6804-44EA-BFE5-83ACDB321474}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ChatGPT Classic" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="python" Key="{92920947-8BD8-48DC-B0EF-5ADAD704A26D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="python" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTkTopLevel" Key="{FE266C62-5864-4583-96CE-8F589F12E5DA}">
+								<Image FileName="466072575" Left="0" Top="0" Right="1066" Bottom="659" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TkTopLevel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="EmpExpenseTrackerForm" Key="{B064D785-3108-4C5A-9368-EA3C58DF44C6}">
+										<Image FileName="466072575" Left="8" Top="31" Right="1058" Bottom="651" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TkChild" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="EmpExpenseEntry" Key="{C33FC246-AAB5-4E5F-A91E-570A6D95EBD5}">
+												<Image FileName="466072575" Left="20" Top="101" Right="1046" Bottom="194" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="5" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="EmpName" Key="{F40044BE-7D45-4D17-9357-5EBA1CA70B4B}">
+														<Image FileName="466072575" Left="39" Top="154" Right="177" Bottom="175" />
+														<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="6" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="EmpDepartment" Key="{242AD70A-4D3B-43F7-9CA4-E03AF5A278E5}">
+														<Image FileName="682873933" Left="187" Top="154" Right="306" Bottom="175" />
+														<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="5" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="EmpExpenseCategory" Key="{4C09A030-DAE4-4E88-99D5-1B8F9EC043E4}">
+														<Image FileName="478634779" Left="316" Top="154" Right="454" Bottom="175" />
+														<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="4" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="EmpExpenseAmount" Key="{BA492FA8-B593-4D38-8F35-F7E20C180A20}">
+														<Image FileName="-1344147839" Left="464" Top="154" Right="560" Bottom="175" />
+														<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="ExpenseEntryOperations" Key="{3D716784-5555-4AF0-BC29-6609498EDCDB}">
+														<Image FileName="833186118" Left="692" Top="152" Right="1020" Bottom="177" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Add" Key="{E7C86048-C352-41E5-8413-9E85D021599C}">
+																<Image FileName="833186118" Left="695" Top="152" Right="771" Bottom="177" />
+																<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="TkChild" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="4" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="EmpExpensesTotals" Key="{7F36EA1F-3B3E-4696-9FF5-12338167EE7B}">
+												<Image FileName="1178810422" Left="8" Top="575" Right="1058" Bottom="624" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="SaveChanges" Key="{C649D5CC-AC47-46B5-9A8C-2492563E1E3D}">
+														<Image FileName="1178810422" Left="966" Top="587" Right="1042" Bottom="612" />
+														<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="popdown" Key="{D6C5FD01-760A-4D81-8C97-CBEC8D012A1C}">
+								<Image FileName="429931811" Left="0" Top="0" Right="119" Bottom="84" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TkTopLevel" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="popdown" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TkChild" Key="{A3D1FFD0-172D-4D05-B5D3-ABC5888ABF1F}">
+										<Image FileName="429931811" Left="0" Top="0" Right="119" Bottom="84" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="54006B004300680069006C0064000D000A000D000A00" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TkChild" Key="{5D31BC09-565B-477A-B5E1-14598EC9DC13}">
+												<Image FileName="429931811" Left="0" Top="0" Right="119" Bottom="84" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TkChild" Key="{8FEFCAFA-7911-4827-895B-12814BE7EC5F}">
+														<Image FileName="429931811" Left="1" Top="1" Right="118" Bottom="83" />
+														<TypeInfo Item0="{609BE56C-A12C-4FD7-99C4-FE2F5BF09C35}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSave" Key="{DCFD7918-73EB-4632-B372-F1A010B67764}">
+								<Image FileName="1228920105" Left="0" Top="0" Right="231" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{3645B86E-F0A6-4F50-8D6B-218F91EA3474}">
+										<Image FileName="1228920105" Left="133" Top="119" Right="208" Bottom="142" />
+										<TypeInfo Item0="{CD663291-E29A-4E9E-B253-F76008610CD0}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{BFB22AB8-CCC8-4F31-9C38-BD33B475D3E6}">
+			<Child Name="wndShell_TrayWnd" Owner="{7791F6DC-ECF4-4A1F-B4B5-FFD6AF0AB06F}">
+				<Child Name="DesktopWindowXamlSource" Owner="{761D0EF2-2AFA-4D49-B39E-153AD4D67E04}" />
+			</Child>
+		</Child>
+		<Child Name="ChatGPT_Classic" Owner="{EBD3F31E-02A0-47A9-908C-F14CD06C4CC6}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{C948E645-CE45-4BE7-866C-3D8FD982F401}" />
+		</Child>
+		<Child Name="python" Owner="{92920947-8BD8-48DC-B0EF-5ADAD704A26D}">
+			<Child Name="wndTkTopLevel" Owner="{FE266C62-5864-4583-96CE-8F589F12E5DA}">
+				<Child Name="EmpExpenseTrackerForm" Owner="{B064D785-3108-4C5A-9368-EA3C58DF44C6}">
+					<Child Name="EmpExpenseEntry" Owner="{C33FC246-AAB5-4E5F-A91E-570A6D95EBD5}">
+						<Child Name="EmpName" Owner="{F40044BE-7D45-4D17-9357-5EBA1CA70B4B}" />
+						<Child Name="EmpDepartment" Owner="{242AD70A-4D3B-43F7-9CA4-E03AF5A278E5}" />
+						<Child Name="EmpExpenseCategory" Owner="{4C09A030-DAE4-4E88-99D5-1B8F9EC043E4}" />
+						<Child Name="EmpExpenseAmount" Owner="{BA492FA8-B593-4D38-8F35-F7E20C180A20}" />
+						<Child Name="ExpenseEntryOperations" Owner="{3D716784-5555-4AF0-BC29-6609498EDCDB}">
+							<Child Name="Add" Owner="{E7C86048-C352-41E5-8413-9E85D021599C}" />
+						</Child>
+					</Child>
+					<Child Name="EmpExpensesTotals" Owner="{7F36EA1F-3B3E-4696-9FF5-12338167EE7B}">
+						<Child Name="SaveChanges" Owner="{C649D5CC-AC47-46B5-9A8C-2492563E1E3D}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="popdown" Owner="{D6C5FD01-760A-4D81-8C97-CBEC8D012A1C}">
+				<Child Name="TkChild" Owner="{A3D1FFD0-172D-4D05-B5D3-ABC5888ABF1F}">
+					<Child Name="TkChild" Owner="{5D31BC09-565B-477A-B5E1-14598EC9DC13}">
+						<Child Name="TkChild" Owner="{8FEFCAFA-7911-4827-895B-12814BE7EC5F}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgSave" Owner="{DCFD7918-73EB-4632-B372-F1A010B67764}">
+				<Child Name="btnOK" Owner="{3645B86E-F0A6-4F50-8D6B-218F91EA3474}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

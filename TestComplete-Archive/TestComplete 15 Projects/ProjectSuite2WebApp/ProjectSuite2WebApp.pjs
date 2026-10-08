@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{F64BC57E-C703-4B4B-8297-C53F00D3ED10}">
+	<children>
+		<child name="TestProject1LoginLogout" key="{08CEDEB0-F2BA-4FE5-A000-52A604C4AE0D}" path="TestProject1LoginLogout\TestProject1LoginLogout.mds" />
+	</children>
+	<testItems key="{3F18B0F4-6C52-40C0-B3FC-6A6AEAC9AF22}">
+		<children>
+			<testItem key="{08CEDEB0-F2BA-4FE5-A000-52A604C4AE0D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{85C8D35A-D480-49E5-99D4-A84586FAEE42}" />
+	<analysis key="{AD1B718E-5DBD-4EE7-A109-F4BF63FEED16}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

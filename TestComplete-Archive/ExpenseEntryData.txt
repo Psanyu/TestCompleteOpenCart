@@ -1,0 +1,4 @@
+Employee, Department, Expense, Amount, Status
+Sam, HR, OnboardApp, 2500, Pending
+Rita, Operations, Orders, 300, Approved
+Rome, Sales, Sales Overhead, 200, Rejected

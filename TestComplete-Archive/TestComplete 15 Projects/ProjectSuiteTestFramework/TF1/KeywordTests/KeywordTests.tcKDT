@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="PanelTravel" key="{6407241D-B098-4418-B8DF-A2C67B315F2C}" path="PanelTravel.tcKDTest" />
+		<child name="PanelTravel2" key="{F9E8190B-9789-482B-8239-91F7C2F14285}" path="PanelTravel2.tcKDTest" />
+		<child name="UserRegistration" key="{B74E9F4C-316D-4EEE-B80E-DF98567828AD}" path="UserRegistration.tcKDTest" />
+	</children>
+</Root>

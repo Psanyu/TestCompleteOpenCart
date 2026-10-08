@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{94401EB1-4705-421C-899B-1432A643AE89}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{6A2A7C11-85D0-4634-9C31-BC459ED58FC7}">
+			<config nodeName="python" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="&quot;C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp\TCApp1.py&quot;" workFolder="C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp" userName="" password="" domain="" />
+					<param name="Profile" parameters="&quot;C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp\TCApp1.py&quot;" workFolder="C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="&quot;C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp\TCApp1.py&quot;" workFolder="C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp" />
+					<param name="Simple" fileName="python.exe" filePath="C:\Users\pandi\AppData\Local\Python\bin\" parameters="&quot;C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp\TCApp1.py&quot;" workFolder="C:\Users\pandi\OneDrive\Desktop\TestCompleteNApp" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

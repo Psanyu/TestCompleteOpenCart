@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{B1CB4DED-7CD9-4415-B8FB-7A99C42137D2}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Action="HelloWorld">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="WebServices.WebService2;" />
+				</Data>
+			</Operation>
+			<Operation Type="{FDA9DF5F-1C66-4A52-9963-6D35BFCAF392}">
+				<Data Description="Compares the response of the %p1 web service against the stored data." Checkpoint="HelloWorld">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="xmlSource" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="WebServices.WebService2" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{3C79212D-4074-4830-B505-9F00560956E9}" />
+</Root>

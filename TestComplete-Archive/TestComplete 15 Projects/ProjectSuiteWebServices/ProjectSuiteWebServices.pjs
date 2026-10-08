@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{C9083D42-36EB-4571-B013-7459E20E5709}">
+	<children />
+	<testItems key="{ADBD95B5-8C89-4B7A-A403-E48111212168}">
+		<children />
+	</testItems>
+	<variables key="{B33B08A8-7942-4744-A6C4-3E89EE08803A}" />
+	<analysis key="{7F9A82C2-6208-4B6F-B170-5B1405B7F841}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

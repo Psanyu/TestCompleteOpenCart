@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{E8D8FDBA-A982-4893-965E-E001D9AB9C27}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="pythonApp" Key="{11678633-7908-4147-985E-A8471C5B73BD}">
+						<TypeInfo Item0="{5B27565D-F57A-4704-BFBD-E8607C64B3EA}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="python" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MiniExpenseForm" Key="{AF4DC5E9-2B83-4111-AF26-975B55CAE3D2}">
+								<Image FileName="136260161" Left="0" Top="0" Right="1066" Bottom="659" />
+								<TypeInfo Item0="{CCC9490E-061A-4FCC-BCF1-C5B953C0C3BE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TkTopLevel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MiniExcel" Key="{863744CE-4635-4FE1-9FD9-B06B85E67CC4}">
+										<Image FileName="136260161" Left="8" Top="31" Right="1058" Bottom="651" />
+										<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TkChild" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ExpenseEntrySection" Key="{DC76C6FD-68E2-45EE-B1A8-66E87CAAE54E}" ExtendedFind="True">
+												<Image FileName="-906749347" Left="20" Top="101" Right="1046" Bottom="194" />
+												<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="5" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="ExpenseItemActions" Key="{31754D52-4EA2-4185-B036-E0A3FE87B730}" ExtendedFind="True">
+														<Image FileName="-1107780434" Left="692" Top="152" Right="1020" Bottom="177" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Add" Key="{5F8D494D-36D4-4A46-B829-02D13147D535}" ExtendedFind="True">
+																<Image FileName="-1107780434" Left="695" Top="152" Right="771" Bottom="177" />
+																<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="TkChild" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="4" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="EmpLabel" Key="{3CE5DCE7-2858-432A-A7AE-2061CE683359}">
+														<Image FileName="682748889" Left="39" Top="130" Right="95" Bottom="149" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="11" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="DeptLabel" Key="{DDC913C1-A735-4B9F-AB56-51B704F12C86}">
+														<Image FileName="-1083121982" Left="187" Top="130" Right="254" Bottom="149" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="10" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="ExpenseLabel" Key="{999017C9-E7FF-474A-A234-3A03AEE2B59B}">
+														<Image FileName="-940533721" Left="316" Top="130" Right="362" Bottom="149" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="9" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="AmountLabel" Key="{B59EBB69-70D2-4E68-B8F8-30BC3C1487F9}">
+														<Image FileName="-1007079092" Left="464" Top="130" Right="512" Bottom="149" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="8" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="StatusLabel" Key="{B5E2939C-787A-404B-B19E-FA9E6F695C91}">
+														<Image FileName="-1007079092" Left="570" Top="130" Right="606" Bottom="149" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="7" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="AmountEdit" Key="{731569C4-CF99-4B5E-B634-66CBB609DC22}">
+														<Image FileName="1436163264" Left="464" Top="154" Right="560" Bottom="175" />
+														<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="DeptSelect" Key="{9B110880-D4FA-4157-9CD9-9D1C9A13D577}" ExtendedFind="True">
+														<Image FileName="78123294" Left="187" Top="154" Right="306" Bottom="175" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="5" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="EmpEdit" Key="{6148C688-8098-442F-963A-280AAD730281}">
+														<Image FileName="555120046" Left="39" Top="154" Right="177" Bottom="175" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="6" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="ExpenseEdit" Key="{AB2775C4-56C9-4F28-AE05-DD9960A5BA16}">
+														<Image FileName="-404362427" Left="316" Top="154" Right="454" Bottom="175" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="4" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="StatusSelect" Key="{2651A883-FEFD-4C55-B3D7-87276B4BFD3D}">
+														<Image FileName="1331589769" Left="570" Top="154" Right="677" Bottom="175" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="SearchName" Key="{A58AE99B-F5E1-46FD-BAF0-F7A1F461F508}">
+												<Image FileName="2005817636" Left="8" Top="199" Right="1058" Bottom="236" />
+												<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="4" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="SearchNameEdit" Key="{631FDFEA-99C5-4D0A-92FF-9DDCFC7BC785}">
+														<Image FileName="-1819981160" Left="68" Top="209" Right="254" Bottom="230" />
+														<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="SearchButton" Key="{AAF15482-CD33-4357-90D1-762C6FD8013A}">
+														<Image FileName="717470239" Left="260" Top="207" Right="336" Bottom="232" />
+														<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="ShowAllButton" Key="{E389DB60-A0B7-47E5-81E8-8B5709CBFFE8}">
+														<Image FileName="-1248093705" Left="341" Top="207" Right="417" Bottom="232" />
+														<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="TotalsSection" Key="{0E7F22D6-5129-4065-A5D5-C236268088AE}">
+												<Image FileName="-1445916502" Left="8" Top="575" Right="1058" Bottom="624" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="SaveButton" Key="{683F7279-3666-43EF-A84F-D1633DC63B71}">
+														<Image FileName="-1445916502" Left="966" Top="587" Right="1042" Bottom="612" />
+														<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="TkChild2" Key="{24038734-2648-4F19-931C-157485901B84}">
+												<Image FileName="429931811" Left="0" Top="0" Right="119" Bottom="84" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TkChild" Key="{60E2982E-DBB8-4EA3-A64E-9600C1B44C06}">
+														<Image FileName="429931811" Left="1" Top="1" Right="118" Bottom="83" />
+														<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TkChild2" Key="{DB8480C7-93A3-4062-8475-01AAC31512EC}">
+														<Image FileName="875009833" Left="20" Top="248" Right="1029" Bottom="563" />
+														<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSave" Key="{1135D126-3B3D-487C-BFD0-FCF0D96FD611}">
+								<Image FileName="932420303" Left="0" Top="0" Right="231" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{4866F254-B72F-4FFC-A901-3D3890B4C12E}">
+										<Image FileName="932420303" Left="133" Top="119" Right="208" Bottom="142" />
+										<TypeInfo Item0="{5EFEF618-C3D6-4745-BD45-1FD88EE30034}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgResetData" Key="{7E9B4456-DA2A-4FD8-A04E-A828AB4075EC}">
+								<Image FileName="258171762" Left="0" Top="0" Right="285" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Reset Data" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{2E55F789-DF6E-441D-BB74-D8279FBA3471}">
+										<Image FileName="258171762" Left="103" Top="119" Right="178" Bottom="142" />
+										<TypeInfo Item0="{5EFEF618-C3D6-4745-BD45-1FD88EE30034}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Yes" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="NotepadApp" Key="{455682B4-BCFF-492D-94C9-8BB2F37D0600}">
+						<TypeInfo Item0="{5B27565D-F57A-4704-BFBD-E8607C64B3EA}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Notepad" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="NotepadWindow" Key="{2050B51B-6D9E-4B96-8C39-993B7C0A9C9F}" ExtendedFind="True">
+								<Image FileName="1666205995" Left="0" Top="0" Right="655" Bottom="446" />
+								<TypeInfo Item0="{CCC9490E-061A-4FCC-BCF1-C5B953C0C3BE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NotepadTextBox" Key="{195C60D4-3C65-4457-A8DA-18F6AD1FE3C5}" ExtendedFind="True">
+										<Image FileName="-1242933284" Left="6" Top="75" Right="649" Bottom="408" />
+										<TypeInfo Item0="{55F908A7-078C-4451-BDA5-0F58415DE6FE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NotepadTextBox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NotepadEdit" Key="{867C7EAD-FFB3-4B3F-BE86-19007ABCD0D2}">
+												<Image FileName="1271881043" Left="6" Top="75" Right="649" Bottom="408" />
+												<TypeInfo Item0="{763970BC-E3B6-429D-AD09-BFFB42787D69}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="RichEditD2DPT" />
+													</Property>
+													<FilterCriteria>
+														<Root Group="OR">
+															<Item Operation="stdopequal">
+																<Left Value="DispValue:WndClass" />
+																<Right Value="ConstStr:RichEditD2DPT" />
+															</Item>
+															<Item Operation="stdopequal">
+																<Left Value="DispValue:WndClass" />
+																<Right Value="ConstStr:NotepadEdit" />
+															</Item>
+														</Root>
+													</FilterCriteria>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{C9004700-423C-4C96-8898-AD3D1FBA2D71}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXamlExplorerHostIslandWindow" Key="{033899A6-6787-4E8C-98D4-D49E63050DB4}">
+								<Image FileName="-706719660" Left="0" Top="0" Right="1920" Bottom="1200" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XamlExplorerHostIslandWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{C8D6F5C0-8AF6-4E25-8D8C-744E39EED97D}">
+										<Image FileName="-706719660" Left="0" Top="0" Right="1920" Bottom="1200" />
+										<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{6CBFE699-446E-48DD-B2AA-9D7D7F108B2C}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{AE7D3C28-8D66-4B79-BDFA-156083B837CE}">
+										<TypeInfo Item0="{5C18B09B-5AC3-4C6E-8CDB-7661B6AC3905}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="pythonApp" Owner="{11678633-7908-4147-985E-A8471C5B73BD}">
+			<Child Name="MiniExpenseForm" Owner="{AF4DC5E9-2B83-4111-AF26-975B55CAE3D2}">
+				<Child Name="MiniExcel" Owner="{863744CE-4635-4FE1-9FD9-B06B85E67CC4}">
+					<Child Name="ExpenseEntrySection" Owner="{DC76C6FD-68E2-45EE-B1A8-66E87CAAE54E}">
+						<Child Name="EmpEdit" Owner="{6148C688-8098-442F-963A-280AAD730281}" />
+						<Child Name="AmountEdit" Owner="{731569C4-CF99-4B5E-B634-66CBB609DC22}" />
+						<Child Name="ExpenseItemActions" Owner="{31754D52-4EA2-4185-B036-E0A3FE87B730}">
+							<Child Name="Add" Owner="{5F8D494D-36D4-4A46-B829-02D13147D535}" />
+						</Child>
+						<Child Name="StatusSelect" Owner="{2651A883-FEFD-4C55-B3D7-87276B4BFD3D}" />
+						<Child Name="EmpLabel" Owner="{3CE5DCE7-2858-432A-A7AE-2061CE683359}" />
+						<Child Name="DeptLabel" Owner="{DDC913C1-A735-4B9F-AB56-51B704F12C86}" />
+						<Child Name="ExpenseLabel" Owner="{999017C9-E7FF-474A-A234-3A03AEE2B59B}" />
+						<Child Name="AmountLabel" Owner="{B59EBB69-70D2-4E68-B8F8-30BC3C1487F9}" />
+						<Child Name="StatusLabel" Owner="{B5E2939C-787A-404B-B19E-FA9E6F695C91}" />
+						<Child Name="ExpenseEdit" Owner="{AB2775C4-56C9-4F28-AE05-DD9960A5BA16}" />
+						<Child Name="DeptSelect" Owner="{9B110880-D4FA-4157-9CD9-9D1C9A13D577}" />
+					</Child>
+					<Child Name="SearchName" Owner="{A58AE99B-F5E1-46FD-BAF0-F7A1F461F508}">
+						<Child Name="SearchNameEdit" Owner="{631FDFEA-99C5-4D0A-92FF-9DDCFC7BC785}" />
+						<Child Name="SearchButton" Owner="{AAF15482-CD33-4357-90D1-762C6FD8013A}" />
+						<Child Name="ShowAllButton" Owner="{E389DB60-A0B7-47E5-81E8-8B5709CBFFE8}" />
+					</Child>
+					<Child Name="TotalsSection" Owner="{0E7F22D6-5129-4065-A5D5-C236268088AE}">
+						<Child Name="SaveButton" Owner="{683F7279-3666-43EF-A84F-D1633DC63B71}" />
+					</Child>
+					<Child Name="TkChild2" Owner="{24038734-2648-4F19-931C-157485901B84}">
+						<Child Name="TkChild" Owner="{60E2982E-DBB8-4EA3-A64E-9600C1B44C06}" />
+						<Child Name="TkChild2" Owner="{DB8480C7-93A3-4062-8475-01AAC31512EC}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgSave" Owner="{1135D126-3B3D-487C-BFD0-FCF0D96FD611}">
+				<Child Name="btnOK" Owner="{4866F254-B72F-4FFC-A901-3D3890B4C12E}" />
+			</Child>
+			<Child Name="dlgResetData" Owner="{7E9B4456-DA2A-4FD8-A04E-A828AB4075EC}">
+				<Child Name="btnYes" Owner="{2E55F789-DF6E-441D-BB74-D8279FBA3471}" />
+			</Child>
+		</Child>
+		<Child Name="NotepadApp" Owner="{455682B4-BCFF-492D-94C9-8BB2F37D0600}">
+			<Child Name="NotepadWindow" Owner="{2050B51B-6D9E-4B96-8C39-993B7C0A9C9F}">
+				<Child Name="NotepadTextBox" Owner="{195C60D4-3C65-4457-A8DA-18F6AD1FE3C5}">
+					<Child Name="NotepadEdit" Owner="{867C7EAD-FFB3-4B3F-BE86-19007ABCD0D2}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{C9004700-423C-4C96-8898-AD3D1FBA2D71}">
+			<Child Name="wndXamlExplorerHostIslandWindow" Owner="{033899A6-6787-4E8C-98D4-D49E63050DB4}">
+				<Child Name="DesktopWindowXamlSource" Owner="{C8D6F5C0-8AF6-4E25-8D8C-744E39EED97D}" />
+			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{6CBFE699-446E-48DD-B2AA-9D7D7F108B2C}">
+				<Child Name="DesktopWindowXamlSource" Owner="{AE7D3C28-8D66-4B79-BDFA-156083B837CE}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
