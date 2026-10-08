@@ -87,6 +87,7 @@ pipeline {
 
                         git add -f reports/validation-results.xml
                         git add -f reports/TestComplete-Validation-Report.xlsx
+                        git add -f reports/TestComplete-Validation-Report.md
 
                         git diff --cached --quiet
 
@@ -107,10 +108,7 @@ pipeline {
             junit allowEmptyResults: true,
                   testResults: 'reports/validation-results.xml'
 
-            archiveArtifacts(
-                artifacts: 'reports/validation-results.xml, reports/TestComplete-Validation-Report.xlsx',
-                allowEmptyArchive: true
-            )
+           archiveArtifacts(artifacts: 'reports/validation-results.xml, reports/TestComplete-Validation-Report.xlsx, reports/TestComplete-Validation-Report.md',allowEmptyArchive: true)
         }
     }
 }

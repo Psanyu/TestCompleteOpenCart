@@ -218,7 +218,60 @@ async function generateExcel() {
     }
 }
 
-generateExcel().catch(error => {
-    console.error("Report generation failed:", error);
-    process.exitCode = 1;
-});
+// Generate GitHub-readable Markdown report
+function generateMarkdown() {
+    const overallResult = failed === 0 ? "PASS ✅" : "FAIL ❌";
+
+    const escapeMarkdown = value =>
+        String(value ?? "")
+            .replace(/\|/g, "\\|")
+            .replace(/\r?\n/g, " ");
+
+    const rows = results.map((r, index) => {
+        const status = r.status === "PASS" ? "✅ PASS" : "❌ FAIL";
+
+        return `| ${index + 1} | ${escapeMarkdown(r.category)} | ${escapeMarkdown(r.name)} | ${status} | ${escapeMarkdown(r.details)} |`;
+    }).join("\n");
+
+    const markdown = `# TestComplete OpenCart Validation Report
+
+## Build Information
+
+| Field | Value |
+|---|---|
+| Build Number | ${escapeMarkdown(buildNumber)} |
+| Execution Date (UTC) | ${escapeMarkdown(executionDate)} |
+| Total Checks | ${total} |
+| Passed | ${passed} |
+| Failed | ${failed} |
+| Overall Result | ${overallResult} |
+
+## Validation Details
+
+| # | Category | File / Validation | Result | Details |
+|---|---|---|---|---|
+${rows}
+
+---
+
+**Note:** This report validates the TestComplete framework structure and JavaScript syntax. It does not represent actual UI test execution.
+`;
+
+    fs.writeFileSync(
+        "reports/TestComplete-Validation-Report.md",
+        markdown,
+        "utf8"
+    );
+
+    console.log("GitHub Markdown report generated successfully.");
+}
+
+// Generate Excel and Markdown reports
+generateExcel()
+    .then(() => {
+        generateMarkdown();
+    })
+    .catch(error => {
+        console.error("Report generation failed:", error);
+        process.exitCode = 1;
+    });
